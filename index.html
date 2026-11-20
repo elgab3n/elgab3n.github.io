@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clips elgab3n Legal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: una columna de lectura (~68ch), cabecera con la franja atardecer de la marca, dos secciones legales con anclas */
+:root {
+  --bg: #fbf7fc; --fg: #1d0b3d; --muted: #5d4c78; --line: #e6dcef; --accent: #d61f74; --band: linear-gradient(90deg, #ff2e88, #ff7a2f, #ffd36b, #34f0ff, #7b2ff7);
+  --display: 'Anton', 'Arial Narrow', Impact, sans-serif; --body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif; --label: 'Rajdhani', 'Arial Narrow', sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #12062a; --fg: #f4ecfb; --muted: #b9a9d6; --line: #2e1a55; --accent: #ff5aa2; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #12062a; --fg: #f4ecfb; --muted: #b9a9d6; --line: #2e1a55; --accent: #ff5aa2; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.franja { height: 6px; background: var(--band); }
+main { max-width: 68ch; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 40px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--label); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: 13px; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(34px, 7vw, 52px); line-height: 1.05; letter-spacing: .01em; text-wrap: balance; margin: 0; }
+h2 { font-family: var(--display); font-weight: 400; font-size: 28px; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--label); font-weight: 700; font-size: 19px; margin: 0; }
+p, ul { margin: 0; } ul { padding-left: 1.2em; display: grid; gap: 6px; }
+.meta { color: var(--muted); font-size: 14px; }
+nav { display: flex; gap: 10px; flex-wrap: wrap; }
+nav a { font-family: var(--label); font-weight: 700; color: var(--fg); text-decoration: none; border: 1.5px solid var(--line); border-radius: 999px; padding: 4px 14px; }
+nav a:hover, nav a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+section { display: grid; gap: 16px; border-top: 1px solid var(--line); padding-top: 28px; }
+.bloque { display: grid; gap: 8px; }
+.es { color: var(--muted); font-size: 15px; }
+a { color: var(--accent); }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 20px; }
+</style>
+</head>
+<body>
+<div class="franja" role="presentation"></div>
+<main>
+  <header>
+    <span class="eyebrow">Clips elgab3n · desktop app</span>
+    <h1>Terms of Service and Privacy Policy</h1>
+    <p class="meta">Last updated: November 19, 2026 · Versión en español al final de cada sección.</p>
+    <nav aria-label="Sections"><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+  </header>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <div class="bloque">
+      <h3>What the app is</h3>
+      <p>Clips elgab3n is a personal desktop tool that runs on a single Windows computer owned by the streamer elgab3n. It turns recordings of elgab3n's own Twitch streams into short vertical clips, lets elgab3n review each clip, and publishes only the clips he approves to his own Instagram and TikTok accounts.</p>
+    </div>
+    <div class="bloque">
+      <h3>Who can use it</h3>
+      <p>The app is not offered to the public. The only user is elgab3n, who signs in to his own accounts through the official Instagram and TikTok login screens. Nobody else can create an account in it.</p>
+    </div>
+    <div class="bloque">
+      <h3>Content</h3>
+      <ul>
+        <li>The app only processes recordings of elgab3n's own streams. It does not download or reuse content from other creators.</li>
+        <li>Nothing is posted without elgab3n approving the clip first. Before posting to TikTok he chooses the privacy level, interaction settings and commercial content disclosure, and accepts TikTok's Music Usage Confirmation.</li>
+        <li>elgab3n is responsible for the clips he publishes and for following the Instagram and TikTok community guidelines.</li>
+      </ul>
+    </div>
+    <div class="bloque">
+      <h3>Third-party platforms</h3>
+      <p>Publishing uses the official Instagram API and the TikTok Content Posting API. Use of those platforms is governed by their own terms. Access can be revoked at any time from the Instagram or TikTok app settings.</p>
+    </div>
+    <div class="bloque es">
+      <h3>En español</h3>
+      <p>Clips elgab3n es una herramienta personal de escritorio que usa solo elgab3n en su PC. Arma clips verticales de sus propios directos de Twitch, se los muestra para aprobar y publica únicamente los que él aprueba en sus propias cuentas de Instagram y TikTok. No está abierta al público, no usa contenido de terceros y nada se publica sin su aprobación. El uso de Instagram y TikTok se rige por los términos de cada plataforma.</p>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <div class="bloque">
+      <h3>Data the app accesses</h3>
+      <ul>
+        <li><strong>TikTok:</strong> basic profile information (open ID, display name, avatar) and creator posting settings, used to show which account will receive the post and to publish the approved video.</li>
+        <li><strong>Instagram:</strong> the account ID and username of @elgab3n, used to publish approved Reels.</li>
+        <li><strong>Stream recordings:</strong> elgab3n's own videos, processed on his computer.</li>
+      </ul>
+    </div>
+    <div class="bloque">
+      <h3>How it is stored</h3>
+      <p>Access tokens and settings are stored only on elgab3n's computer. There is no server, no database in the cloud and no analytics. The app does not collect data about viewers, followers or any other person.</p>
+    </div>
+    <div class="bloque">
+      <h3>Sharing</h3>
+      <p>Data is never sold or shared for advertising. The only outside services involved are Instagram and TikTok (to publish) and the Anthropic API, which receives short text transcripts of elgab3n's own stream to suggest titles, descriptions and hashtags.</p>
+    </div>
+    <div class="bloque">
+      <h3>Deleting data</h3>
+      <p>Disconnecting the app in Instagram (Settings › Apps and websites) or TikTok (Settings › Security › Apps) revokes its access immediately. Deleting the app's folder on the computer removes all stored tokens and clips.</p>
+    </div>
+    <div class="bloque">
+      <h3>Contact</h3>
+      <p>Questions about this app: send a direct message to <strong>@elgab3n</strong> on Instagram or TikTok.</p>
+    </div>
+    <div class="bloque es">
+      <h3>En español</h3>
+      <p>La app solo accede al perfil básico de TikTok y a la cuenta de Instagram @elgab3n para publicar los clips que él aprueba. Los tokens se guardan únicamente en su PC: no hay servidores propios, ni analíticas, ni datos de otras personas. No se venden ni se comparten datos. Para quitarle el acceso alcanza con desconectar la app desde la configuración de Instagram o TikTok. Contacto: mensaje directo a @elgab3n.</p>
+    </div>
+  </section>
+
+  <footer>Clips elgab3n is an independent tool made for the streamer elgab3n. It is not affiliated with Instagram, Meta or TikTok.</footer>
+</main>
+</body>
+</html>
